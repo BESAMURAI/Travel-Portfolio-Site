@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoFolio-About</title>
+    <link rel="icon" href="camera.png" type="image/camera-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url("wood bg.jpg");
+            color: #282928; 
+            font-family: sans-serif; 
+            line-height: 1.6; 
+        }
+
+        .about-container {
+            display: flex; 
+            justify-content: center; 
+            align-items: flex-start; 
+            padding: 2rem; 
+        }
+
+        .image-container img {
+            width: 90%; 
+            max-width: none; 
+            height: 600px; 
+            object-fit: cover; 
+            border-radius: 10px; 
+        }
+
+        .info-container {
+            width: 50%; 
+            padding-left: 2rem; 
+        }
+
+        h1 {
+            font-size: 2.5rem; 
+            margin-bottom: 1rem; 
+        }
+
+        h2 {
+            font-size: 1.5rem; 
+            margin-bottom: 1rem; 
+        }
+
+        p {
+            margin-bottom: 1rem; 
+        }
+
+        ul {
+            list-style: none; 
+            padding: 0; 
+        }
+
+        li {
+            margin-bottom: 0.5rem; 
+        }
+
+        nav ul li::before {
+            content: none; 
+        }
+        li::before {
+            content: "•"; 
+            margin-right: 0.5rem; 
+            color: #0c9aff; 
+        }
+
+        footer {
+            padding: 0.001rem 0; 
+            text-align: center; 
+        }
+
+        nav {
+            padding: 0.5rem 0; 
+        }
+
+        nav ul {
+            list-style: none; 
+            padding: 0; 
+            margin: 0; 
+            display: flex; 
+            gap: 20px; 
+        }
+
+        nav ul li {
+            margin: 0; 
+        }
+
+        nav > ul {
+            list-style: none; 
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="brand"><i class="fas fa-camera-retro"></i> PhotoFolio</a>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="services.html"><i class="fas fa-briefcase"></i> Services</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="about-container">
+        <div class="image-container">
+            <img src="mina3.jpg" alt="Professional California Based Photographer">
+        </div>
+        <div class="info-container">
+            <h2>Professional California Based Photographer</h2>
+            <p>Takes stunning visuals from architecture, people, nature and much more.</p>
+            <ul>
+                <li><strong>Birthday:</strong> 5 Sep 1995</li>
+                <li><strong>Website:</strong> <a href="https://www.pexels.com/search/beautiful%20nature/">Nature Pexel</a></li>
+                <li><strong>Phone:</strong> +123 654 7870</li>
+                <li><strong>City:</strong> California, USA</li>
+                <li><strong>Age:</strong> 30</li>
+                <li><strong>Degree:</strong> Masters</li>
+                <li><strong>Email:</strong> <a href="mailto:minacali@gmail.com">minacali@gmail.com</a></li>
+                <li><strong>Freelance:</strong> Available</li>
+            </ul>
+            <p>Hello! I'm Elena Carter, a passionate photographer based in California. With over 16 years of experience, I specialize in capturing life's beautiful moments, whether it's a wedding, a family portrait, or breathtaking landscapes.</p>
+            <p>Photography for me is not just a job; it’s a way to tell stories. I believe every picture has the power to evoke emotions and preserve memories for a lifetime. My style blends creativity with authenticity, allowing me to showcase the unique essence of my subjects.</p>
+            <p>When I’m not behind the camera, you can find me exploring new places, experimenting with different techniques, or connecting with fellow creatives. I'm always eager to learn and grow in this ever-evolving art form.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 PhotoFolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

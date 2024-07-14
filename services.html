@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoFolio-Services</title>
+    <link rel="icon" href="camera.png" type="image/camera-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-image: url("sandy bg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #070708;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: rgb(3, 3, 3);
+            padding: 0.5rem 0;
+            z-index: 1000;
+            width: 100%;
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav .brand {
+            color: #fff;
+            font-size: 1.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 1rem;
+        }
+
+        .text-box {
+            background-color: rgba(135, 129, 243, 0.9);
+            padding: 0.5rem;
+            border-radius: 5px;
+            margin: 1rem 0;
+            display: inline-block;
+            width: 90%;
+        }
+
+        .available-for-hire {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            margin: 1rem 0;
+            display: inline-block;
+            width: 90%;
+        }
+
+        footer {
+            padding: 0.1rem 0;
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="index.html" class="brand"><i class="fas fa-camera-retro"></i> PhotoFolio</a>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="services.html"><i class="fas fa-briefcase"></i> Services</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="text-box">
+            <h1>Services</h1>
+            <p>My services are highly flexible and affordable to ensure the best service provided.</p>
+            <ul>
+                <li>Portrait Photography</li>
+                <li>Event Photography</li>
+                <li>Commercial Photography</li>
+                <li>Food Photography</li>
+                <li>Fashion Photography</li>
+                <li>Sports Photography</li>
+                <li>Travel Photography</li>
+                <li>Fine Art Photography</li>
+                <li>Stock Photography</li>
+                <li>Editing and Retouching</li>
+            </ul>
+            <p>To contact me or avail my services, please send me an email or a message at <a href="contact.html">Contact Me</a></p>
+        </div>
+        
+        <div class="available-for-hire">
+            <h2>Currently Available For Hire</h2>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 PhotoFolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
